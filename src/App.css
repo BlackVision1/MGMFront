@@ -1,0 +1,179 @@
+* {
+box-sizing: border-box; 
+}
+
+.App {
+text-align: center;
+display: flex;
+min-height: 100vh;
+align-items: center;
+justify-content: left;
+background-color: rgb(254 254 255);
+background-repeat: no-repeat;
+background-position: right ;
+margin-right: 0.1rem;
+}
+
+.auth-container {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10%;
+flex-direction: column;
+}
+
+h2 {
+letter-spacing: 5px;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+
+.auth-form-container, .login-form, .register-form {
+display: flex;
+flex-direction: column; 
+}
+
+.bx {
+margin-right: 10px;
+padding-top: 5px
+}
+
+.a {
+cursor: pointer;
+text-decoration: none;
+color: rgb(40, 40, 165);
+transition: all 0.2s;
+}
+
+.b {
+margin-top: 30px;
+margin-right: 10px;
+color: black;
+text-decoration: none;
+cursor: pointer;
+font-size: 18px;
+font-weight: 600;
+transition: all 0.2s;
+}
+
+.b:hover {
+color: rgb(63, 62, 100);
+transform: scaleX(1.1);
+}
+
+.alfa {
+font-size: small;
+box-sizing: unset;
+margin-left: 100px;
+}
+
+.beta {
+margin-top: 50px;
+}
+
+.gama {
+text-decoration: none;
+font-size: smaller;
+box-sizing: unset;
+margin-left: 50px;
+color: rgb(150, 148, 148);
+}
+
+.a:hover {
+color: blue;
+}
+
+.footer {
+margin-top: 15px;
+}
+
+.terms {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.term {
+text-decoration: none;
+color: rgb(39, 51, 83);
+font-size: medium;
+font-weight: 600;
+transition: all 0.3s;
+}
+
+.term:hover {
+color: rgba(0, 0, 0, 0.356);
+}
+
+
+.label-align {
+display: flex;
+flex-direction: row;
+}
+
+@media screen and (min-width: 600px){
+  
+}
+.auth-form-container{
+background: rgb(183 185 199 / 11%);
+padding: 20px 70px;
+margin: 20px;
+border: 1px solid rgb(8, 0, 0);
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+box-shadow:
+  6.9px 8.6px 7.1px rgba(0, 0, 0, 0.029),
+  19.2px 23.7px 19.5px rgba(0, 0, 0, 0.042),
+  46.1px 57px 47px rgba(0, 0, 0, 0.055),
+  153px 189px 156px rgba(0, 0, 0, 0.08)
+;
+}
+
+label{
+text-align: left;
+padding: 0.25rem 0; 
+display: flex;
+        flex-direction: row;
+}
+
+input{
+margin: 0.5rem 0;
+padding: 1rem;
+border-width: 1px;
+border-radius: 10px;
+}
+
+button{
+border: 0.1;
+background-color: rgb(183 185 199 / 11%);
+padding: 20px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 15px;
+transition: all 0.5s;
+margin-top: 10px;
+}
+
+button:hover {
+background-color: rgb(145, 231, 142);
+border-radius: 15px;
+}
+
+.link-btn{
+background: none;
+color: rgb(55, 20, 214);
+text-decoration: underline;
+}
+
+@media screen and (min-width: 480px) {
+
+    .label-align {
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+}
